@@ -1,0 +1,105 @@
+body{
+    
+    text-align: center;
+    background-color:white;
+    margin: 0%;
+    font-family:'Merriweather',serif;
+}
+
+.top-div{
+    margin: 0%;
+    background-color: #F8FFDB;
+    position: relative;
+    padding-top: 100px;
+}
+h1{
+    color:  #66BFBF;
+    line-height: 1;
+    font-size:5.625rem;
+    font-family:"Sacramento";
+    margin: 50px auto 0 auto ; /*https://developer.mozilla.org/en-US/docs/Web/CSS/margin*/
+}
+h2{
+    font-weight: normal;
+    color:  #66BFBF; 
+    font-family:'Merriweather',serif;
+}
+h3 {
+    color:#11999E;
+}
+a{
+    color:#11999E;
+}
+
+#cloud1{
+    position:absolute;
+    left: -150px;
+    top:20px;
+    animation: 25s linear 0s infinite running moving-clouds;
+}
+#cloud2{
+    position: absolute;
+    bottom: 300px;
+    left:-500px;
+    animation: 25s linear 0s infinite running moving-clouds;
+}
+.pic{
+    width: 120px;
+    float: left;
+    margin: 40px;
+}
+#under-phrase{
+    font-size: 2.5rem;
+
+}
+.mountain{
+    margin: auto auto ;
+    margin: 100px auto 100px auto ;
+}
+.skill-row{
+    width: 40% ;
+    margin: 100px auto 100px auto ;
+    text-align: left;
+    line-height: 2;
+}
+#gym1{
+    float: right;
+}
+hr{
+    border-style: dotted;
+    color: grey;
+    width: 3%;
+    border-bottom: hidden;
+    border-width: 6px;
+    margin:auto ;
+}
+@keyframes moving-clouds{
+    from{
+        transform: translateX(initial);
+    }
+    to{
+
+        transform: translateX(150rem)
+    }
+}
+
+#bird{
+    position: absolute;
+    left:-100px;
+    bottom:20px;
+    width: 50px;
+    margin:auto;
+    animation: 25s linear 0s infinite running bird-move;
+
+}
+
+@keyframes bird-move{
+    0%{
+        transform: translateX(initial);
+    }
+
+    100%{
+
+        transform: translate(300rem,-150rem)
+    }
+}
