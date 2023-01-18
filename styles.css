@@ -99,11 +99,8 @@ a{
 .skill-row{
     width: 40% ;
     margin: 100px auto 100px auto ;
-    text-align: left;
+    text-align:left;
     line-height: 2;
-}
-#gym1{
-    float: right;
 }
 hr{
     border-style: dotted;
