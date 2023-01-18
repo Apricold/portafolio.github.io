@@ -84,7 +84,7 @@ a{
 }
 .pic{
     width: 120px;
-    float: left;
+    float: right;
     margin: 40px;
 }
 #under-phrase{
@@ -99,7 +99,7 @@ a{
 .skill-row{
     width: 40% ;
     margin: 100px auto 100px auto ;
-    text-align: left;
+    text-align: right;
     line-height: 2;
 }
 #gym1{
