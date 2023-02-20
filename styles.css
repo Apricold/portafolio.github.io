@@ -6,6 +6,9 @@ body{
     font-family:'Merriweather',serif;
 
 }
+.introduction{
+    padding:10%;
+}
 #profile_photo{
     width:220px;
 }
